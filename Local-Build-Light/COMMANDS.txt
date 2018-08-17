@@ -1,0 +1,13 @@
+Detecting image:
+darknet.exe detector test data/obj.data cfg/yolov3-custom.cfg ../../Yolo-supplemental-files/yolov3-custom_1000.weights
+
+Note: you have to find the location of yolov3-custom_1000.weights on your computer, it won't be in the same location as mine.  It was downloaded in the bitbucket, so point the command line at that directory
+
+Upon running this command, requests image path.
+Ex:
+" data/button_test.png "
+or
+" C:/Users/you/downloads/pic.png "
+
+For training:
+https://github.com/AlexeyAB/darknet#how-to-compile-on-windows
